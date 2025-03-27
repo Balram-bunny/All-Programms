@@ -1,0 +1,37 @@
+package Cookie;
+
+import java.util.Set;
+
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class p1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.google.com/");
+		//to get cookies
+		Set<Cookie> cookielist=driver.manage().getCookies();
+		System.out.println(cookielist.size());
+		for(Cookie c:cookielist)
+		{
+			System.out.println(c.getName() + ":"+ c.getValue());
+		}
+		
+		System.out.println("-------------------------");
+		//get specific cookie according to name
+		Cookie cookiename=driver.manage().getCookieNamed("NID");
+		System.out.println("cookie name: "+ cookiename);
+		System.out.println("-------------------------");
+		//Create and add cookie
+		//first creake cookie
+		Cookie addcookie=new Cookie("TestCookie", "Balram");
+		System.out.println("New cookie name:"+addcookie);
+		driver.quit();
+		
+
+	}
+
+}

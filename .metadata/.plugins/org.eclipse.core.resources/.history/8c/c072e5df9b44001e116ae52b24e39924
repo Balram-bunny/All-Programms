@@ -1,0 +1,38 @@
+package Encapsulation;
+
+class p1 {
+     private String name;//  data hiding
+   private  int rollno ;
+   private String gender;
+   public void set(String name, int rollno, String gender)// data abstraction
+   {
+	   this.name=name;
+	   this.rollno=rollno;
+	   this.gender=gender;
+   }
+   public String get()
+   {
+	   return name;
+   }
+   public int get1()
+   {
+	   return rollno;
+   }
+   public String get2()
+   {
+	   return gender;
+   }
+     
+   public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	   p1 p=new p1();
+	   p.set("Balram", 8, "Male");
+	   System.out.println(p.get());
+	   System.out.println(p.get1());
+
+	   System.out.println(p.get2());
+
+
+	}
+
+}

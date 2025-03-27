@@ -1,0 +1,31 @@
+package Methods;
+
+public class Static {
+	public static void m1(int a)
+	{
+		System.out.println("from m1");
+	}
+	public static void m1(int a, int b)
+	{
+		System.out.println("from m2");
+	}
+	public static void m2(int a, float b, char c)
+	{
+		System.out.println("from m3");
+	}
+	public static void m3(int a,int b)
+	{
+		System.out.println(a+b);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		m1(10);
+		m1(10,20);
+		m2(10,20.0f,'c');
+		m3(10,20);
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package WhileLoop;
+
+public class p7 {
+
+	public static void main(String[] args) {
+		// WAP to print sum of odd number from 1 to 20
+		int a=1;
+		int sum=0;
+		while (a<=20)
+		{
+			if (a%2!=0)
+			{
+				sum=sum+a;
+				
+			}
+			a++;
+		}
+		System.out.println(sum);
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package com.sunseed.testcases;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import com.sunseed.pageobject.Preprocessor;
+import com.sunseed.pageobject.SignIn;
+
+public class Tc_01 extends BaseClass{
+	@Test
+	public void signin() throws InterruptedException, IOException
+	{
+		driver.get(url);
+		driver.manage().window().maximize();
+		SignIn s=new SignIn(driver);
+		s.enterusername("w1@yopmail.com");
+		s.enterpassword("Test@123");
+		s.clickonsubmit();
+		capturescreenshot(driver,"signin");
+	Thread.sleep(2000);
+		s.clickonicon();
+		//s.enterprojectname("Runname123");
+		//s.clickoncreaterun();
+//		Thread.sleep(2000);
+//
+//		s.Cancel();
+		
+		System.out.println("logged in");
+		Preprocessor p=new Preprocessor(driver);
+		p.clickonAPV();
+		Thread.sleep(2000);
+		p.PVmodule();
+		p.PVoperation();
+		p.moduleconfig();
+		p.Height("9");
+		p.Lengthonerow("7");
+		p.gapbetweenmodules("200");
+		p.pitchofrows("8");
+		p.azimuth("123");
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package Introduction;
+
+public class FV {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final int a;
+		System.out.println(a);
+		
+	}
+
+}

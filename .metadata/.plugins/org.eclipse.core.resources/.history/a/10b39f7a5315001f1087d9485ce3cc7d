@@ -1,0 +1,24 @@
+package com.sunseed.testcases;
+
+import org.testng.annotations.Test;
+
+import com.sunseed.pageobject.SignIn;
+
+public class Tc_01 extends BaseClass{
+	@Test
+	public void signin()
+	{
+		driver.get(url);
+		SignIn s=new SignIn(driver);
+		s.enterusername("balram.nayak+1@navyuginfo.com");
+		s.enterpassword("Test@123");
+		s.clickonsubmit();
+	
+		s.clickonicon();
+		s.enterprojectname("Runname123");
+		s.clickoncreaterun();
+		System.out.println("logged in");
+		
+	}
+
+}

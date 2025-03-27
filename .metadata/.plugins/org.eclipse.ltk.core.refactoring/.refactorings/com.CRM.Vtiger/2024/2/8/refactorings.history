@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;Zaky&apos; to &apos;SeleniumPractice/src/test/java&apos;&#x0D;&#x0A;- Original project: &apos;com.CRM.Vtiger&apos;&#x0D;&#x0A;- Destination element: &apos;SeleniumPractice/src/test/java&apos;&#x0D;&#x0A;- Original element: &apos;com.CRM.Vtiger/src/test/java/Zaky&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=SeleniumPractice/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Zaky" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1708706901559" version="1.0"/>
+</session>

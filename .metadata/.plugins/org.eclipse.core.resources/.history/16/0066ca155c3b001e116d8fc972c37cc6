@@ -1,0 +1,18 @@
+package WhileLoop;
+
+public class p9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int num=12;
+		 while(num!=0)
+		 {
+			 int digit=num%10;
+			 int square=digit*digit;
+			 System.out.println("sqaure of"+ digit+ "is : "+ square);
+			 num/=10;
+		 }
+
+	}
+
+}

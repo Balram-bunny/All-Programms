@@ -1,0 +1,13 @@
+package Introduction;
+
+public class Operator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     byte a=10;
+     byte b=20;
+     byte c=(byte) (a+b);// It is because, when operant is int and lower than int type then result will be of INT type.
+     System.out.println(c);
+	}
+
+}

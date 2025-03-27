@@ -1,0 +1,13 @@
+package WhileLoop;
+
+public class p9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=1212;
+		int square= i*i;
+		System.out.println(square);
+
+	}
+
+}

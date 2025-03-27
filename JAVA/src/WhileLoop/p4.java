@@ -1,0 +1,19 @@
+package WhileLoop;
+
+public class p4 {
+
+	public static void main(String[] args) {
+		// WAP to print number from 20 to 79 which is ending with 4 or 8
+		int i=20;
+		while(i<=79)
+		{
+			if(i%10==4 || i %10==8)
+			{
+				System.out.println(i);
+			}
+			i++;
+		}
+
+	}
+
+}

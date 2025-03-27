@@ -1,0 +1,21 @@
+package WhileLoop;
+
+public class p8 {
+
+	public static void main(String[] args) {
+		// WAP to print sum of even & Odd number from 1 to 200
+		int i=1;
+		int sum=0;
+		while (i<=10)
+		{
+			if (i%2==0 || i%2!=0)
+			{
+				sum =sum+i;
+			}
+			i++;
+		}
+		System.out.println(sum);
+
+	}
+
+}

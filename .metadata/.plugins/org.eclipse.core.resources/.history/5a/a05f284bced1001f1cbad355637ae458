@@ -1,0 +1,19 @@
+package programms;
+
+public class pallindrome {
+
+	public static void main(String[] args) {
+		// int a=123;    ans. =321;
+		int num=123;
+		int rev=1;
+		
+		for(int i=0;i<num;i++)
+		{
+			num=num%10; //3
+					rev=rev*num;
+		}
+		System.out.println(rev);
+
+	}
+
+}

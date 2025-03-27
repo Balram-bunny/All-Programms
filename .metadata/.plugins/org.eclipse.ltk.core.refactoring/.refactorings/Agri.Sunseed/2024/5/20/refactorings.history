@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.sunseed.utility.BaseClass&apos; to &apos;Readconfig&apos;&#x0D;&#x0A;- Original project: &apos;Agri.Sunseed&apos;&#x0D;&#x0A;- Original element: &apos;com.sunseed.utility.BaseClass&apos;&#x0D;&#x0A;- Renamed element: &apos;com.sunseed.utility.Readconfig&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BaseClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.sunseed.utility{BaseClass.java[BaseClass" matchStrategy="1" name="Readconfig" qualified="false" references="true" similarDeclarations="false" stamp="1716055489720" textual="false" version="1.0"/>
+</session>

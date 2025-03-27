@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.zaky.utility.Utility&apos; to &apos;Readconfig&apos;&#x0D;&#x0A;- Original project: &apos;com.healthcare.Zaky&apos;&#x0D;&#x0A;- Original element: &apos;com.zaky.utility.Utility&apos;&#x0D;&#x0A;- Renamed element: &apos;com.zaky.utility.Readconfig&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Utility&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zaky.utility{Utility.java[Utility" matchStrategy="1" name="Readconfig" qualified="false" references="true" similarDeclarations="false" stamp="1713798291975" textual="false" version="1.0"/>
+</session>

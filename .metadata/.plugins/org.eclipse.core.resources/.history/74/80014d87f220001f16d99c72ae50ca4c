@@ -1,0 +1,10 @@
+package Abstraction;
+
+public abstract class A {
+	static int a=10;
+  A(int a)
+  {
+	  System.out.println("from A");
+  }
+ 
+}

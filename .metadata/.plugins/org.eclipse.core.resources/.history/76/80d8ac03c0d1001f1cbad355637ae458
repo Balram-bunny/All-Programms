@@ -1,0 +1,20 @@
+package programms;
+
+public class primenumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=14;
+		if(num%num==0 && num %1==0 && num%2!=0)
+		{
+			System.out.println(num + " is a prime number");
+		}
+		else
+		{
+			System.out.println(num + " is not a prime number");
+
+		}
+
+	}
+
+}

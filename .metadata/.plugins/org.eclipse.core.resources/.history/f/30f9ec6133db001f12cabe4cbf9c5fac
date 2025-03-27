@@ -1,0 +1,27 @@
+package Practice2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class session7 {
+
+	public static void main(String[] args) {
+		// TC 2- Open opencart app>> 1.select dropdown  2. check dropdown holds multiple options or not 3. get all options.
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.opencart.com/index.php?route=account/registerhttps://www.calculator.net/");
+		//find dropdown field
+		WebElement element=driver.findElement(By.id("input-country"));
+		Select dropdown=new Select(element);
+		dropdown.selectByVisibleText("American Samoa");
+//		dropdown.selectByIndex(1);
+//		dropdown.selectByValue("3");
+		driver.close();
+
+
+	}
+
+}

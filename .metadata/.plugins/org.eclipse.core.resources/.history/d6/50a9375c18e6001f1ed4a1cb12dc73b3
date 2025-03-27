@@ -1,0 +1,51 @@
+package Extentandlistenerdemo;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class Listenerclass implements ITestListener {
+
+	
+	@Override
+	public void onStart(ITestContext result) {
+		System.out.println("Test start method invoked :" + result.getName());
+
+	}
+
+	@Override
+	public void onFinish(ITestContext result) {
+		System.out.println("Test finish method invoked:" + result.getName());
+
+	}
+
+	@Override
+	public void onTestStart(ITestResult result) {
+		System.out.println("Name of the test case :" + result.getName());
+		
+	}
+	
+	@Override
+	public void onTestSuccess(ITestResult result) {
+		System.out.println("succesful test case :" + result.getName());
+
+	}
+
+	@Override
+	public void onTestFailure(ITestResult result) {
+		System.out.println("Name of failed test case :" + result.getName());
+
+	}
+
+	@Override
+	public void onTestSkipped(ITestResult result) {
+		System.out.println("Name of skipped test case :" + result.getName());
+
+	}
+
+	
+
+	
+	
+
+}

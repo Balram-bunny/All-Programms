@@ -1,0 +1,25 @@
+package Encapsulation;
+
+public class p2 {
+	
+	private  String name;
+	
+	public void set(String name)
+	{
+		name=name;
+	}
+	public String get()
+	{
+		return name;
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		p2 p=new p2();
+	  p.set("Balram");
+	  System.out.println(p.get());
+
+	}
+
+}

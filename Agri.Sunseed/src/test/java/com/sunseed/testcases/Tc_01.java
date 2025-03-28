@@ -14,10 +14,12 @@ public class Tc_01 extends BaseClass{
 		driver.get(url);
 		driver.manage().window().maximize();
 		SignIn s=new SignIn(driver);
-		s.enterusername("w1@yopmail.com");
+		s.enterusername("w1@yopmail.commm");
+		//deepak raulo
 		s.enterpassword("Test@123");
 		s.clickonsubmit();
 		capturescreenshot(driver,"signin");
+		
 	Thread.sleep(2000);
 		s.clickonicon();
 		//s.enterprojectname("Runname123");
